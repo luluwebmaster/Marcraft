@@ -1,8 +1,8 @@
 # Marcraft
 
-Marcraft est un petit "jeu" que j'ai réaliser pour m’entraîner !
+Marcraft est un petit "jeu" que j'ai réalisé pour m’entraîner !
 
-Il utilise les technologies. suivantes : 
+Il utilise les technologies suivantes : 
 
 - HTML
 - CSS
