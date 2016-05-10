@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script src="include.js"></script>
+		<title>Mon super jeu trop cool</title>
+	</head>
+	<body>
+		<div class="g-frame">
+			<div class="gf-background">
+				<img src="imgs/background.png" class="gfb-img gfb-1"/>
+				<img src="imgs/background.png" class="gfb-img gfb-2"/>
+			</div>
+			<div class="gf-perso"></div>
+			<div class="gf-stats">
+				<div>
+					Platformes : <span class="gfs-plats"></span>
+				</div>
+				<div>
+					Points : <span class="gfs-points"></span>
+				</div>
+				<div>
+					Jumps : <span class="gfs-jumps"></span>
+				</div>
+				<div>
+					Temps : <span class="gfs-time">0</span>
+				</div>
+			</div>
+			<div class="gf-plats">
+				<div class="gfp-plat gfp-plat_start" style="background-image:url('imgs/grass_1.png');width:300px;top:300px;"></div>
+			</div>
+			<div class="gf-game"></div>
+			<div class="gf-start">
+				<div class="gfs-button" onClick="startGame();">Start</div>
+			</div>
+			<div class="gf-load"><img src="imgs/loading.gif"/><br />Chargement en cours ...</div>
+		</div>
+	</body>
+</html>

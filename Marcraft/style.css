@@ -1,0 +1,122 @@
+body
+{
+}
+.g-frame
+{
+	height:400px;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	font-family:Arial;
+}
+.gf-background
+{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.gfb-img
+{
+	height:100%;
+	position:absolute;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+.gf-perso
+{
+	position:absolute;
+	z-index:1;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.gf-plats
+{
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	overflow:hidden;
+	position:absolute;
+}
+.gfp-plat
+{
+	display:inline-block;
+	position:absolute;
+	height:99999px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+.gf-game
+{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	z-index:50;
+}
+.gf-start
+{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	z-index:100;
+	background-color:rgba(255,255,255,0.8);
+	text-align:center;
+}
+.gfs-button
+{
+	display:inline-block;
+	background-color:rgba(12,158,5,0.8);
+	padding:100px;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:5px;
+	cursor:pointer;
+	font-size:40px;
+	font-weight:bold;
+	color:white;
+	margin-top:120px;
+	border:5px solid rgba(144,98,52,0.8);
+}
+.gfs-button:hover
+{
+	background-color:rgba(12,158,5,1);
+	border:5px solid rgba(144,98,52,1);
+}
+.gf-stats
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+	padding-top:5px;
+	padding-left:5px;
+}
+.gf-stats div
+{
+	padding:3px;
+	padding-left:5px;
+}
+.gf-load
+{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	z-index:200;
+	background-color:white;
+	text-align:center;
+}
