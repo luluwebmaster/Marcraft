@@ -11,6 +11,6 @@ Il utilise les technologies. suivantes :
 
 Le but quand j'ai créé ce projet, ce n'était pas de créer un vrais jeu, mais d'apprendre à maitriser ces technologies.
 
-Je vous invite à voir l'article complet ici :
+Je vous invite à lire l'article complet ici :
 
 - 
